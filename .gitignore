@@ -1,0 +1,48 @@
+# Build output
+/target/
+
+# Personal health data: lab reports and anything exported or copied from the
+# app's data directory. Never commit these.
+/samples/
+*.pdf
+*.PDF
+/exports/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+b-health-*.csv
+b-health-*.json
+
+# Environment and local overrides
+.env
+.env.*
+
+# Rust tooling
+**/*.rs.bk
+*.pdb
+/mutants.out*/
+*.profraw
+*.profdata
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.iml
+.zed/
+*.swp
+*.swo
+*~
+.#*
+\#*#
+
+# OS
+.DS_Store
+Thumbs.db
+.directory
+
+# AI assistant local files
+.claude/
+CLAUDE.local.md
